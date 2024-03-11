@@ -4,7 +4,7 @@
   "description": "바벨 커스텀 플러그인작성 레포",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile" : "npx babel ./src/index.js -d dist && node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "dependencies": {
     "@babel/cli": "^7.23.9",
     "@babel/core": "^7.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
   }
 }
