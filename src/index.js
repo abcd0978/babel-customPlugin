@@ -4,4 +4,8 @@ function foo() {
 }
 foo();
 
-let a = 5 *** 7;
+let a = [1,2,3] & [3,4,5];
+let b = [1,2,3] | [3,4,5];
+
+console.log(a);
+console.log(b);
