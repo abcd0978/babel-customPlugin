@@ -16,32 +16,9 @@ for(let j=0; j<10; j+=1){
 }
 
 function foo_debug(){
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
-    console.log('디버깅용 함수');
+    for(let i=0; i<Number.MAX_SAFE_INTEGER; i++){
+        console.log('디버깅용 함수');
+    }
 }
 
 foo_debug();
