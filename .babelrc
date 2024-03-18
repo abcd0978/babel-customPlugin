@@ -1,3 +1,8 @@
 {
-    "plugins": ["./plugins/setOperations.js", "./plugins/alertToWarn.js", "./plugins/forToWhile.js"]
+    "plugins": [
+    "./plugins/setOperations.js", 
+    "./plugins/alertToWarn.js", 
+    "./plugins/forToWhile.js",
+    "./plugins/deleteDebugFunc.js"
+]
 }

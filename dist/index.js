@@ -12,5 +12,14 @@ let b = [1, 2, 3, 4, 5];
     i++;
   }
 }
+{
+  let j = 0;
+  while (j < 10) {
+    console.log('hello world2');
+    j += 1;
+  }
+}
+;
+void 0;
 console.log(a);
 console.log(b);

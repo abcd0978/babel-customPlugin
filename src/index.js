@@ -11,5 +11,40 @@ for(let i=0; i<10; i++) {
     console.log('hello world');
 }
 
+for(let j=0; j<10; j+=1){
+    console.log('hello world2');
+}
+
+function foo_debug(){
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+    console.log('디버깅용 함수');
+}
+
+foo_debug();
+
 console.log(a);
 console.log(b);
